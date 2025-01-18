@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Box</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header{
+            background-color: gray;
+            text-align: center;
+            padding: 30px;
+            color: white;
+        }
+        .container{
+            flex: 1;
+            display: flex;
+        }
+
+        .sidebar{
+            background-color: azure;
+            width: 200px;
+            padding: 1rem;
+        }
+        .main{
+            flex: 1;
+            background-color: bisque;
+            padding: 1rem;
+        }
+
+        footer{
+            background-color: gray;
+            text-align: center;
+            padding: 30px;
+        }
+    </style>
+
+
+</head>
+<body>
+<header>
+<h2>This is Header</h2>
+</header>
+<div class="container">
+<div class="sidebar">
+    <h3>This is Sidebar</h3>
+</div>
+<div class="main">
+    <h3>This is Main content
+</div>
+
+</div>
+
+<footer>
+    <h3>This is Footer</h3>
+</footer>
+</body>
+</html>

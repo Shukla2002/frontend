@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3X3 grid</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f5f5f5;
+
+            
+        }
+
+        .product-card img{
+            width: 100%;
+            height: auto;
+        }
+
+        .product{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap:20px;
+            width: 90%;
+            max-width: 1200px;
+        }
+
+        .product-card{
+            background-color: gray;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .product-title{
+            text-align: center;
+            color: white;
+        }
+        .product-info{
+            text-align: center;
+            color: black;
+            font-weight: 800;
+          
+        }
+        .product-card:hover{
+            transform: translateY(-5px);
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="product">
+        <div class="product-card">
+            <img src="category-1.jpg" alt="Product-1">
+
+            <div class="product-info">
+                <h2 class="product-title">Product-1</h2>
+                <p class="product-price">23RS.</p>
+            </div>
+
+        </div>
+        <div class="product-card">
+            <img src="category-1.jpg" alt="Product-2">
+
+            <div class="product-info">
+                <h2 class="product-title">Product-1</h2>
+                <p class="product-price">23RS.</p>
+            </div>
+
+        </div>
+        <div class="product-card">
+            <img src="category-1.jpg" alt="Product-2">
+
+            <div class="product-info">
+                <h2 class="product-title">Product-1</h2>
+                <p class="product-price">23RS.</p>
+            </div>
+
+        </div>
+        <div class="product-card">
+            <img src="category-3.jpg" alt="Product-2">
+
+            <div class="product-info">
+                <h2 class="product-title">Product-1</h2>
+                <p class="product-price">23RS.</p>
+            </div>
+
+        </div>
+        <div class="product-card">
+            <img src="category-3.jpg" alt="Product-2">
+
+            <div class="product-info">
+                <h2 class="product-title">Product-1</h2>
+                <p class="product-price">23RS.</p>
+            </div>
+
+        </div>
+        <div class="product-card">
+            <img src="category-3.jpg" alt="Product-2">
+
+            <div class="product-info">
+                <h2 class="product-title">Product-1</h2>
+                <p class="product-price">23RS.</p>
+            </div>
+
+        </div>
+        <div class="product-card">
+            <img src="category-4.jpg" alt="Product-2">
+
+            <div class="product-info">
+                <h2 class="product-title">Product-1</h2>
+                <p class="product-price">23RS.</p>
+            </div>
+
+        </div>
+        <div class="product-card">
+            <img src="category-4.jpg" alt="Product-2">
+
+            <div class="product-info">
+                <h2 class="product-title">Product-1</h2>
+                <p class="product-price">23RS.</p>
+            </div>
+
+        </div>
+        <div class="product-card">
+            <img src="category-4.jpg" alt="Product-2">
+
+            <div class="product-info">
+                <h2 class="product-title">Product-1</h2>
+                <p class="product-price">23RS.</p>
+            </div>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
